@@ -1,5 +1,9 @@
-# Laboratorio1
-## Laura Marin Velez
+# st0263-2266 Topicos especiales en telemática
+## Estudiante: Laura Marin Velez - lmarinv2@eafit.edu.co
+## Profesor: Edwin Nelson Montoya Múnera - emontoya@eafit.edu.co
+# Laboratorio 1
+## Descripcion 
+Este laboratorio se trata sobre el protocolo HTTP mediante sockest, usando la arquitectura cliente servidor, especificamente se implementara el metodo GET que consite en traer informacion
 ## Instalacion 
 Se debe iniciar una instacia en EC2 que será el servidor, deben de estar habilitados los puertos 80 y 22 que son lo sque escuchan http y https, adicionalmente el servidor debe tener asociada una direccion ip elastica. La instancia debe tener instalada python 3 y git 
 ```
