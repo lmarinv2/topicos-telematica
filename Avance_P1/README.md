@@ -121,7 +121,7 @@ cd /ect/redis/redis.conf
 
 # IP o nombres de dominio en nube o en la máquina servidor.
 
-    * Redismast
+    - Redismast
 
 ## como se lanza el servidor.
 ```
