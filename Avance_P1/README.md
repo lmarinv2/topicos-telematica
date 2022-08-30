@@ -127,7 +127,7 @@ redis-cli
 ```
 
     ![image](https://user-images.githubusercontent.com/53051440/187494575-83f342fc-e784-45b2-b761-a2980b2781fe.png)
-
+    
     ![image](https://user-images.githubusercontent.com/53051440/187495052-1b7121ef-dfc5-450b-b696-243b12f4c59e.png)
  
     ![image](https://user-images.githubusercontent.com/53051440/187495084-d26f308d-4a0f-4cbb-a849-9f0671146fd9.png)
