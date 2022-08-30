@@ -126,7 +126,8 @@ cd /ect/redis/redis.conf
 ## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
 
 ## como se lanza el servidor.
-![image text] (https://raw.githubusercontent.com/lmarinv2/topicos-telematica/master/Avance_P1/redis-cli.png)
+![image text] 
+(https://raw.githubusercontent.com/lmarinv2/topicos-telematica/master/Avance_P1/redis-cli.png)
 
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 
