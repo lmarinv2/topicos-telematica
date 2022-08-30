@@ -164,6 +164,10 @@ redis-cli
  
 ### * CRUD desde redis.cli Cluster
    ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
+   
+### * CRUD desde python Cluster
+   ![image](https://user-images.githubusercontent.com/53051440/187531324-a5957093-3c3a-4d8a-9fe1-466c33299fb2.png)
+
     
 ### * Tolerancia a fallos 
 
