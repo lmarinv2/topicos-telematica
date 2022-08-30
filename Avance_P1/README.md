@@ -150,7 +150,10 @@ redis-cli
    ![image](https://user-images.githubusercontent.com/53051440/187511607-72701ded-2452-447b-a40e-892ce2c3c3a7.png)
 
 ### * Creacion de Cluster
-    
+
+
+    ![image](https://user-images.githubusercontent.com/53051440/187527151-d1a53803-4bcf-4e97-aef2-4cc0954f13a2.png)
+
     
    ![image](https://user-images.githubusercontent.com/53051440/187499214-424f035a-d6f5-4625-abb9-d0dd12764079.png)
 
