@@ -200,14 +200,12 @@ redis-cli
 
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 
-## opcionalmente - si quiere mostrar resultados o pantallazos 
 
-# 5. otra información que considere relevante para esta actividad.
 
 # referencias:
-<debemos siempre reconocer los créditos de partes del código que reutilizaremos, así como referencias a youtube, o referencias bibliográficas utilizadas para desarrollar el proyecto o la actividad>
-## sitio1-url 
-## sitio2-url
+## https://redis.io/docs/getting-started/
+## https://redis.io/docs/manual/scaling/ 
+## https://blog.katastros.com/a?ID=00600-b8522261-0b24-4767-9e52-a4c712e26d02
 ## url de donde tomo info para desarrollar este proyecto
 
 #### versión README.md -> 1.0 (2022-agosto)
