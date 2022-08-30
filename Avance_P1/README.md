@@ -146,13 +146,19 @@ redis-cli
 
 
 * Creacion de Cluster
+    
+    ![image](https://user-images.githubusercontent.com/53051440/187499214-424f035a-d6f5-4625-abb9-d0dd12764079.png)
 
     ![image](https://user-images.githubusercontent.com/53051440/187498062-eacf904e-2de0-44b3-b2cd-2826cbfdf924.png)
  
 * CRUD desde redis.cli Cluster
 
     ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
+    
+* Tolerancia a fallos 
 
+    ![image](https://user-images.githubusercontent.com/53051440/187499538-d2b06c93-ad4f-41f7-852d-9a2a79b6b9c1.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187499586-bd4828e9-c8e6-4d79-8032-e44786d4cf1e.png)
 
 
 
