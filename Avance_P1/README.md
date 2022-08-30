@@ -119,26 +119,40 @@ cd /ect/redis/redis.conf
 
 # IP o nombres de dominio en nube o en la máquina servidor.
 
-
-## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
+    * Redismast
 
 ## como se lanza el servidor.
 ```
 redis-cli
 ```
 
-![image](https://user-images.githubusercontent.com/53051440/187494575-83f342fc-e784-45b2-b761-a2980b2781fe.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187494575-83f342fc-e784-45b2-b761-a2980b2781fe.png)
 
-![image](https://user-images.githubusercontent.com/53051440/187495052-1b7121ef-dfc5-450b-b696-243b12f4c59e.png)
-
-![image](https://user-images.githubusercontent.com/53051440/187495084-d26f308d-4a0f-4cbb-a849-9f0671146fd9.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187495052-1b7121ef-dfc5-450b-b696-243b12f4c59e.png)
+ 
+    ![image](https://user-images.githubusercontent.com/53051440/187495084-d26f308d-4a0f-4cbb-a849-9f0671146fd9.png)
 
 * CRUD desde redis-cli
 
-![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
-![image](https://user-images.githubusercontent.com/53051440/187495197-fb7c4be1-e07e-40f4-9edc-371f09d0ae44.png)
-![image](https://user-images.githubusercontent.com/53051440/187495232-23ed51d0-50de-4fff-8c80-56cef71ae960.png)
-![image](https://user-images.githubusercontent.com/53051440/187495269-1bfbfa56-0c93-4639-8cef-b1b7f133ced3.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187495197-fb7c4be1-e07e-40f4-9edc-371f09d0ae44.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187495232-23ed51d0-50de-4fff-8c80-56cef71ae960.png)
+    ![image](https://user-images.githubusercontent.com/53051440/187495269-1bfbfa56-0c93-4639-8cef-b1b7f133ced3.png)
+
+
+* CRUD desde python 
+
+    ![image](https://user-images.githubusercontent.com/53051440/187497789-071a17fa-bff7-4cc7-8428-5a1fa40681ac.png)
+
+
+* Creacion de Cluster
+
+    ![image](https://user-images.githubusercontent.com/53051440/187498062-eacf904e-2de0-44b3-b2cd-2826cbfdf924.png)
+ 
+* CRUD desde redis.cli Cluster
+
+    ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
+
 
 
 
