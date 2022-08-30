@@ -133,31 +133,31 @@ redis-cli
    
 ### * CRUD desde redis-cli
 
-    ![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
-    ![image](https://user-images.githubusercontent.com/53051440/187495197-fb7c4be1-e07e-40f4-9edc-371f09d0ae44.png)
-    ![image](https://user-images.githubusercontent.com/53051440/187495232-23ed51d0-50de-4fff-8c80-56cef71ae960.png)
-    ![image](https://user-images.githubusercontent.com/53051440/187495269-1bfbfa56-0c93-4639-8cef-b1b7f133ced3.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187495197-fb7c4be1-e07e-40f4-9edc-371f09d0ae44.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187495232-23ed51d0-50de-4fff-8c80-56cef71ae960.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187495269-1bfbfa56-0c93-4639-8cef-b1b7f133ced3.png)
 
 
 ### * CRUD desde python 
 
-    ![image](https://user-images.githubusercontent.com/53051440/187497789-071a17fa-bff7-4cc7-8428-5a1fa40681ac.png)
-    ![image](https://user-images.githubusercontent.com/53051440/187511607-72701ded-2452-447b-a40e-892ce2c3c3a7.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187497789-071a17fa-bff7-4cc7-8428-5a1fa40681ac.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187511607-72701ded-2452-447b-a40e-892ce2c3c3a7.png)
 
 ### * Creacion de Cluster
     
-    ![image](https://user-images.githubusercontent.com/53051440/187499214-424f035a-d6f5-4625-abb9-d0dd12764079.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187499214-424f035a-d6f5-4625-abb9-d0dd12764079.png)
 
-    ![image](https://user-images.githubusercontent.com/53051440/187498062-eacf904e-2de0-44b3-b2cd-2826cbfdf924.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187498062-eacf904e-2de0-44b3-b2cd-2826cbfdf924.png)
  
 ### * CRUD desde redis.cli Cluster
 
-    ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
     
 ### * Tolerancia a fallos 
 
-    ![image](https://user-images.githubusercontent.com/53051440/187499538-d2b06c93-ad4f-41f7-852d-9a2a79b6b9c1.png)
-    ![image](https://user-images.githubusercontent.com/53051440/187499586-bd4828e9-c8e6-4d79-8032-e44786d4cf1e.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187499538-d2b06c93-ad4f-41f7-852d-9a2a79b6b9c1.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187499586-bd4828e9-c8e6-4d79-8032-e44786d4cf1e.png)
 
 
 
