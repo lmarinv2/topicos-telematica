@@ -27,6 +27,8 @@ El nombre Redis proviene de las iniciales de Remote Dictionary Server (servidor 
 
 La arquitectura de Redis es de tipo cliente-servidor. El cliente y el servidor pueden encontrarse en el mismo nodo o bien estar distribuidos. El servidor se encarga de almacenar datos en memoria.
 
+![image](https://user-images.githubusercontent.com/53051440/187512199-63cb9ba9-1049-44c3-b76c-0db6d181cd1e.png)
+
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
 ## 1. Como se compila y ejecuta.
