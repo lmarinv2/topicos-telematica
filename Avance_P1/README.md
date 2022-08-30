@@ -131,6 +131,11 @@ redis-cli
    ![image](https://user-images.githubusercontent.com/53051440/187511771-772c81cc-f015-4b86-b76c-e56d404f7283.png)
    ![image](https://user-images.githubusercontent.com/53051440/187511819-341809b1-4e96-4e3d-a317-1c612d0fbadd.png)
    
+### * Persistencia en disco 
+
+   ![image](https://user-images.githubusercontent.com/53051440/187521427-ba30b912-fe06-46f2-b732-d0557a9c042f.png)
+
+   
 ### * CRUD desde redis-cli
 
    ![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
