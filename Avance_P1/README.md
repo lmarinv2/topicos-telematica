@@ -106,13 +106,13 @@ cd /ect/redis/redis.conf
 
 - HABILITAR MODO CLUSTER
 
-    cluster-enabled 
-    cluster-config-file 
-    cluster-node-timeout
-    cluster-slave-validity-factor
-    cluster-migration-barrier
-    cluster-require-full-coverage
-    cluster-allow-reads-when-down
+    - cluster-enabled 
+    - cluster-config-file 
+    - cluster-node-timeout
+    - cluster-slave-validity-factor
+    - cluster-migration-barrier
+    - cluster-require-full-coverage
+    - cluster-allow-reads-when-down
 
 
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
@@ -134,6 +134,7 @@ redis-cli
 ![image](https://user-images.githubusercontent.com/53051440/187495084-d26f308d-4a0f-4cbb-a849-9f0671146fd9.png)
 
 * CRUD desde redis-cli
+
 ![image](https://user-images.githubusercontent.com/53051440/187495168-c27e8d39-0a57-47b0-8734-b9f64f869a44.png)
 ![image](https://user-images.githubusercontent.com/53051440/187495197-fb7c4be1-e07e-40f4-9edc-371f09d0ae44.png)
 ![image](https://user-images.githubusercontent.com/53051440/187495232-23ed51d0-50de-4fff-8c80-56cef71ae960.png)
