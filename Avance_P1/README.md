@@ -151,12 +151,17 @@ redis-cli
 
 ### * Creacion de Cluster
     
+    
    ![image](https://user-images.githubusercontent.com/53051440/187499214-424f035a-d6f5-4625-abb9-d0dd12764079.png)
 
    ![image](https://user-images.githubusercontent.com/53051440/187498062-eacf904e-2de0-44b3-b2cd-2826cbfdf924.png)
  
 ### * CRUD desde redis.cli Cluster
 
+    Cada carpeta simulara una instancia
+    
+   ![image](https://user-images.githubusercontent.com/53051440/187521631-75817e28-2b64-4743-bd05-ddfb185a3a78.png)
+   ![image](https://user-images.githubusercontent.com/53051440/187521833-b99b1627-5376-47f9-8c2e-7062993b728f.png)
    ![image](https://user-images.githubusercontent.com/53051440/187498348-4bdec7eb-b315-45f7-a99b-6ed779997312.png)
     
 ### * Tolerancia a fallos 
