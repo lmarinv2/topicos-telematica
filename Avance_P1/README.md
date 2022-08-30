@@ -152,6 +152,7 @@ redis-cli
 ### * Creacion de Cluster
     
     Cada carpeta simulara una instancia
+    Cada instacia tiene su archivo.conf en el cual se configura el puerto por el que se va a comunicar
    ![image](https://user-images.githubusercontent.com/53051440/187521631-75817e28-2b64-4743-bd05-ddfb185a3a78.png)
    ![image](https://user-images.githubusercontent.com/53051440/187521833-b99b1627-5376-47f9-8c2e-7062993b728f.png)
 
@@ -176,6 +177,16 @@ redis-cli
    
 ### * Replicacion de datos 
    ![image](https://user-images.githubusercontent.com/53051440/187529557-6e96023d-6971-4476-a07d-da9d758a0985.png)
+
+### * Redis como MOM
+
+![image](https://user-images.githubusercontent.com/53051440/187536821-febdd8ff-d2a4-4641-b503-913d9da32ad8.png)
+
+![image](https://user-images.githubusercontent.com/53051440/187537759-4decaaf8-ad18-429f-9f8a-c2b45901a17e.png)
+
+![image](https://user-images.githubusercontent.com/53051440/187536178-48aba7d4-cfba-4185-8fb7-15575b8a962d.png)
+
+![image](https://user-images.githubusercontent.com/53051440/187537843-1895deb1-7065-448b-8df8-01a804930f8d.png)
 
 
 
