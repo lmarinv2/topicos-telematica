@@ -67,7 +67,7 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    
    -Para comenzar a recibir los datos del simulador IOT abrimos una terminal y ejecutamos 
    
-    ``` 
+   ``` 
     $ python3 consumer.py
    ```
    
