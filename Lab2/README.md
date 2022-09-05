@@ -81,14 +81,9 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    ```
 ![image](https://user-images.githubusercontent.com/53051440/188490985-f384b628-039b-4647-9596-07f7e31fa15e.png)
 
-
-
-# 5. otra información que considere relevante para esta actividad.
-
 # referencias:
-<debemos siempre reconocer los créditos de partes del código que reutilizaremos, así como referencias a youtube, o referencias bibliográficas utilizadas para desarrollar el proyecto o la actividad>
-## sitio1-url 
-## sitio2-url
-## url de donde tomo info para desarrollar este proyecto
 
-#### versión README.md -> 1.0 (2022-agosto)
+## https://blog.bi-geek.com/rabbitmq-para-principiantes/#:~:text=%C2%BFC%C3%B3mo%20funciona%3F,los%20mensajes%20que%20se%20procesar%C3%A1n
+## https://help.ubidots.com/en/articles/569964-simulate-data-in-ubidots-using-python
+
+#### versión README.md -> 1.0 (2022-septiembre)
