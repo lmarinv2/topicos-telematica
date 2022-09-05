@@ -34,9 +34,9 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
 - Librerias: pika, json, time, requests
 
 ## como se compila y ejecuta.
-    ``` 
+   ``` 
     $ sudo docker start rabbit-server
-    ```
+   ```
 ## detalles del desarrollo.
 ## detalles técnicos
 ## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
