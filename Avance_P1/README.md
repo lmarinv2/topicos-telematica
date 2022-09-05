@@ -50,7 +50,9 @@ La arquitectura de Redis es de tipo cliente-servidor. El cliente y el servidor p
     $ python3 nombre_archivo.py
     ```
     Archivos disponibles:
+    
     ~/redisCrear.py(hostname,password,key,value)
+    
     ~/redisHelloWorld.py(hostname,password)
     
 
@@ -85,16 +87,23 @@ La arquitectura de Redis es de tipo cliente-servidor. El cliente y el servidor p
 
     Por ultimo podemos hacer operacion CRUD desde redis-cli y python 
     archivos disponibles 
+    
     ~/cluster-test/redisCrear.py(hostname,port,key,value)
+    
     ~/cluster-test/redisCrear.py(hostname,port,key,value)
     
 
 ## 2. detalles técnicos
 Se lanzo una instacia de ubuntu 22.04
+
 Python3 3.10.4
+
 redis 7.0.4 
+
 iredis 1.10.0-1
+
 lsb-release
+
 ## 3. descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
 
 Al instalar Redis este descarga un archivo redis.conf.
