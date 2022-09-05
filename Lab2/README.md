@@ -81,6 +81,7 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    ![image](https://user-images.githubusercontent.com/53051440/188490820-e6cd693f-a1dc-4b37-b975-2875f38e632b.png)
    
    configuracion de parametros
+   
    ![image](https://user-images.githubusercontent.com/53051440/188493148-8b1b50db-7998-4627-b5de-9aece2f29d9e.png)
 
 
