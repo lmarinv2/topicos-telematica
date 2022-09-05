@@ -64,18 +64,22 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    ``` 
     $ python3 producer.py
    ```
-   
-   -Para comenzar a recibir los datos del simulador IOT abrimos una terminal y ejecutamos 
+   ![image](https://user-images.githubusercontent.com/53051440/188490640-d1790027-9250-4831-9bf8-09090aa31e12.png)
+
+   - Para comenzar a recibir los datos del simulador IOT abrimos una terminal y ejecutamos 
    
    ``` 
     $ python3 consumer.py
    ```
+   ![image](https://user-images.githubusercontent.com/53051440/188490820-e6cd693f-a1dc-4b37-b975-2875f38e632b.png)
+
    
    en este mismo archivo se encuentra el vinculo con ubidots para comenzar a enviar los datos al simulador que se encuentra en:
    
    ```
       https://stem.ubidots.com/app/dashboards/public/widget/y_A6_v39MSv3p00rpoQe0b0UIBFaLye53YKdWyaYI2o
    ```
+![image](https://user-images.githubusercontent.com/53051440/188490985-f384b628-039b-4647-9596-07f7e31fa15e.png)
 
 
 
