@@ -68,6 +68,7 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
     ``` 
     $ python3 consumer.py
    ```
+   
    en este mismo archivo se encuentra el vinculo con ubidots para comenzar a enviar los datos al simulador que se encuentra en:
    ```
       https://stem.ubidots.com/app/dashboards/public/widget/y_A6_v39MSv3p00rpoQe0b0UIBFaLye53YKdWyaYI2o
