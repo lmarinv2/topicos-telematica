@@ -4,10 +4,10 @@
 #
 # Laboratorio 2
 #
-# 1. Breve descripción de la actividad
+# 1. Descripcion de la actividad
 Uso rabbitmq como MOM simulando eventos IOT en python 
-<texto descriptivo>
-## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
+
+## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor
 * Adaptacion de Rabbitmq a un pryecto IOT
 * Simulador de eventos IOT (ubidots)
 * Maquina desplegada en AWS
