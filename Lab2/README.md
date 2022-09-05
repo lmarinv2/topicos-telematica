@@ -43,15 +43,36 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    -  PASSWORD: password
 
 ## como se compila y ejecuta.
+   - Para lanzar el serivor
    ``` 
     $ sudo docker start rabbit-server
    ```
    ![image](https://user-images.githubusercontent.com/53051440/188488945-b7c518e4-a298-4633-ad49-32ede344841e.png)
-   
+   - Verificamos que el servidor esta corriendo
    ``` 
     $ docker ps
    ```
    ![image](https://user-images.githubusercontent.com/53051440/188489063-fa00a476-533b-4113-ace4-55d6d3aed6fe.png)
+   
+   - Escribimos la ip en el buscador seguido del puerto por el que rabbitmq escucha. Ingresamos con el usuario y contraseña por defecto 
+   ![image](https://user-images.githubusercontent.com/53051440/188489708-026a7e4e-f82b-4b12-a6f9-e83220290241.png)
+   
+   ![image](https://user-images.githubusercontent.com/53051440/188489792-35607d57-08db-4a80-bcd9-0315519d16e4.png)
+   
+   - Para comenzar a producir los datos del simuladot IOT abrimos una terminal y ejecutamos
+   ``` 
+    $ python3 producer.py
+   ```
+   
+   -Para comenzar a recibir los datos del simulador IOT abrimos una terminal y ejecutamos 
+    ``` 
+    $ python3 consumer.py
+   ```
+   en este mismo archivo se encuentra el vinculo con ubidots para comenzar a enviar los datos al simulador que se encuentra en:
+   ```
+      https://stem.ubidots.com/app/dashboards/public/widget/y_A6_v39MSv3p00rpoQe0b0UIBFaLye53YKdWyaYI2o
+   ```
+
 
 
 # 5. otra información que considere relevante para esta actividad.
