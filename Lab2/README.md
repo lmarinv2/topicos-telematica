@@ -29,8 +29,9 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
 
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
-Lenguaje: Python3
-Librerias: pika, json, time, requests
+-Lenguaje: Python3
+
+-Librerias: pika, json, time, requests
 
 ## como se compila y ejecuta.
     ``` 
