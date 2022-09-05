@@ -60,13 +60,20 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    ![image](https://user-images.githubusercontent.com/53051440/188489792-35607d57-08db-4a80-bcd9-0315519d16e4.png)
    
    - Para comenzar a producir los datos del simuladot IOT abrimos una terminal y ejecutamos
+      Este archivo genera datos aleatorios y los envia al mom
    
    ``` 
     $ python3 producer.py
    ```
    ![image](https://user-images.githubusercontent.com/53051440/188490640-d1790027-9250-4831-9bf8-09090aa31e12.png)
+   
+   configuracion de parametros
+   
+   ![image](https://user-images.githubusercontent.com/53051440/188492568-735cc5f7-8c7f-4f43-962f-b351c3f7bf09.png)
+
 
    - Para comenzar a recibir los datos del simulador IOT abrimos una terminal y ejecutamos 
+      Este archivo recibe los datos que estan encolados en el mom, los recibe en consola y los envia al simulador ubidots
    
    ``` 
     $ python3 consumer.py
