@@ -37,6 +37,14 @@ La arquitectura básica de una cola de mensajes es simple. Hay aplicaciones clie
    ``` 
     $ sudo docker start rabbit-server
    ```
+   ![image](https://user-images.githubusercontent.com/53051440/188488945-b7c518e4-a298-4633-ad49-32ede344841e.png)
+   
+   ``` 
+    $ docker ps
+   ```
+   ![image](https://user-images.githubusercontent.com/53051440/188489063-fa00a476-533b-4113-ace4-55d6d3aed6fe.png)
+
+   
 ## detalles del desarrollo.
 ## detalles técnicos
 ## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
