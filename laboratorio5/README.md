@@ -46,6 +46,8 @@ Debemos habilitar los puertos de las aplicaciones que vamos a usar, para esto ac
 
 Luego accedemos al cluster, damos clic en resumen y abrimos los grupos de seguridad para principal y habilitamos los mismoa puertos que habilitamos anteriormente
 
+[1](eviencia/1.png)
+
 ## Conexion SSH a EMR
 
 En instancias ec2 se habran creato 3 maquinas, nos conectaremos en la master
