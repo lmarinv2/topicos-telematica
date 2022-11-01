@@ -11,11 +11,15 @@
 
 Inicialmente debemos tener creado un par de claves, para esto accedemos a EC2, par de claves, allí le asignaremos un nombre a nuestra clave, esocogemos RSA y .pem, finalmente creamos el par de claves y esta se descargara automaticamente
 
+Imagen: [1](evidencias/1.png) - [2](evidencias/2.png)
+
 ## Creacion del bucket
 
 Accedemos a amazon s3 y le damos en crear bucket.
 
 De acuerdo a los requisitos de Hadoop, los nombres del bucket y de las carpetas que utilice en Amazon EMR tienen las siguientes restricciones: deben contener solo letras en minúsculas, números, puntos y guiones y no pueden terminar en números 
+
+Imagen: [3](evidencias/3.png)
 
 ## Creacion del cluster EMR
 
@@ -46,7 +50,7 @@ Debemos habilitar los puertos de las aplicaciones que vamos a usar, para esto ac
 
 Luego accedemos al cluster, damos clic en resumen y abrimos los grupos de seguridad para principal y habilitamos los mismoa puertos que habilitamos anteriormente
 
-[1](evidencias/1.png)
+Imagen: [4](evidencias/4.png) - [5](evidencias/5.png) - [6](evidencias/6.png) - [7](evidencias/7.png) - [8](evidencias/8.png) - [9](evidencias/9.png)
 
 ## Conexion SSH a EMR
 
@@ -80,13 +84,18 @@ Cuando el cluster se termine estos archivos serán eliminados automaticamente pa
 hadoop distcp /user/hadoop/datasets/* s3a://"Nombre de su Bucket"/datasets
 ```
 
+Imagen: [10](evidencias/10.png) - [11](evidencias/11.png) - [12](evidencias/12.png) - [13](evidencias/13.png) - [14](evidencias/14.png)
+
 # Conexion HUE
 
 Accedemos  EMR, historial de aplicaciones copiamos el link de hue y lo abrimos en el navegador, nos pedira crear una cuenta y creamos un usuario hadoop con la contraseña que queramos 
 
 Una vez adentro acedemos a files damos clic en New-directory, accedemos a este directorio y damos clic en upload y agregamos los archivos que deseamos
+Imagen: [15](evidencias/15.png) - [16](evidencias/16.png)
+
 
 #
 
 Por ultimo si accedemos de nuevo a EMR via ssh y listamos los archivos veremos la nueva carpeta que creamos via HUE
 
+Imagen: [17](evidencias/17.png)
