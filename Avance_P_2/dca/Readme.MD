@@ -66,7 +66,7 @@ sudo systemctl start Docker
 ``` ssh
 sudo usermod -a -G docker Ubuntu
 ```
-  - generamos la carpeta **mariadb** donde vamos a depositar la configuracion de la instancia del contenedor
+  - generamos la carpeta **mariadb** donde vamos a depositar la configuracion de la instancia del [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/dca/Mariadb/docker-compose.yml)
 
 ``` ssh
 sudo mkdir mariadb
@@ -172,7 +172,7 @@ sudo systemctl start Docker
 sudo usermod -a -G docker Ubuntu
 ```
 
-- generamos la carpeta **Moodle** donde vamos a depositar la configuracion de la instancia del contenedor
+- generamos la carpeta **Moodle** donde vamos a depositar la configuracion de la instancia del [**docker-compose**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/dca/Moodle/docker-compose.yml)
 
 ``` ssh
 Sudo mkdir Moodle
@@ -238,7 +238,7 @@ sudo nginx -t
 sudo service reload
 ```
 
-- Creamos el archivo sudo nano **options-ssl-nginx.conf** y lo copiamos dentro de la carpeta del proyecto
+- Creamos el archivo sudo nano [**options-ssl-nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/dca/Nginx/ssl/options-ssl-nginx.conf) y lo copiamos dentro de la carpeta del proyecto
 
 > Si su computador cuenta con el archivo options-ssl-nginx.config omita este paso
 
@@ -253,14 +253,14 @@ cd nginx/ssl
 sudo openssl dhparam -out ssl-dhparams.pem 512
 ```
 
-- Creamos el archivo **docker-compose.yml** con al configuracion del docker en la raiz del proyecto
+- Creamos el archivo [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/dca/Nginx/docker-compose.yml) con al configuracion del docker en la raiz del proyecto
 
 ``` ssh
 cd nginx
 sudo nano docker-compose.yml
 ```
 
-- Cambiamos la configuracion del nginx del proyecto
+- Cambiamos la configuracion del [**nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/dca/Nginx/nginx.conf) del proyecto
 
 ``` ssh
 sudo nano nginx.conf
@@ -286,10 +286,10 @@ El desarrollo esta generado en python con una arquitectura Cliente/Servidor, en 
     - ├───| docker-compose.yaml
   - ├─📁Nginx
     - ├───📁 ssl
-      - ├───| nginx.config
       - ├───| options-ssl-nginx.conf
       - ├───| ssl-dhparams.pem
     - ├───| docker-compose.yml
+    - ├───| nginx.config
 
 
 ## 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
