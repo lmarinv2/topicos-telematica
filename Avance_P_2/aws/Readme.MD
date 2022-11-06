@@ -49,24 +49,24 @@ Se despliega utilizando la estrategias de contenedores aislados sincronizados po
 ``` ssh
 Sudo apt update
 ```
-  - instalamos docker y docker-compose 
+  - Instalamos docker y docker-compose 
 
 ``` ssh
 sudo apt install docker.io -y
 sudo apt install docker-compose -y
 ```
-  - habilitamos el proceso
+  - Habilitamos el proceso
 
 ``` ssh
 sudo systemctl enable Docker
 sudo systemctl start Docker
 ```
-  - entregamos permisos al usuario
+  - Entregamos permisos al usuario
 
 ``` ssh
 sudo usermod -a -G docker Ubuntu
 ```
-  - generamos la carpeta **mariadb** donde vamos a depositar la configuracion de la instancia del [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/Mariadb/docker-compose.yml)
+  - Generamos la carpeta **mariadb** donde vamos a depositar la configuracion de la instancia del [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/scripts/Mariadb/docker-compose.yml)
 
 ``` ssh
 sudo mkdir mariadb
@@ -74,7 +74,7 @@ cd mariadb
 sudo nano docker-compose.yml
 ```
 
-  - ejecutamos la instancia del contenedor desde docker-compose
+  - Ejecutamos la instancia del contenedor desde docker-compose
 
 ``` ssh
 docker-compose up --build -d
@@ -88,12 +88,12 @@ docker-compose up --build -d
 ``` ssh
 Sudo apt update
 ```
-  - instalamos el servidor NFS
+  - Instalamos el servidor NFS
 
 ``` ssh
 sudo apt install nfs-kernel-server
 ```
-  - configuramos la carpeta donde se van a subir los archivos compartidos
+  - Configuramos la carpeta donde se van a subir los archivos compartidos
 
 ``` ssh
 sudo mkdir -p /mnt/nfs_share
@@ -154,32 +154,32 @@ sudo mount 172.31.90.49:/mnt/nfs_share /mnt/Moodle
 ``` ssh
 Sudo apt update
 ```
-  - instalamos docker y docker-compose 
+  - Instalamos docker y docker-compose 
 
 ``` ssh
 sudo apt install docker.io -y
 sudo apt install docker-compose -y
 ```
-  - habilitamos el proceso
+  - Habilitamos el proceso
 
 ``` ssh
 sudo systemctl enable Docker
 sudo systemctl start Docker
 ```
-  - entregamos permisos al usuario
+  - Entregamos permisos al usuario
 
 ``` ssh
 sudo usermod -a -G docker Ubuntu
 ```
 
-- generamos la carpeta **Moodle** donde vamos a depositar la configuracion de la instancia del [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/Moodle/docker-compose.yml)
+- Generamos la carpeta **Moodle** donde vamos a depositar la configuracion de la instancia del [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/scripts/Moodle/docker-compose.yml)
 
 ``` ssh
 Sudo mkdir Moodle
 Cd Moodle
 Sudo nano Docker-compose.yml
 ```
-- ejecutamos la instancia del contenedor desde docker-compose
+- Ejecutamos la instancia del contenedor desde docker-compose
 
 ``` ssh
 docker-compose up --build -d
@@ -192,14 +192,14 @@ docker-compose up --build -d
 ``` ssh
 Sudo apt update
 ```
-  - instalamos letsencrypt y nginx
+  - Instalamos letsencrypt y nginx
 
 ``` ssh
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt install letsencrypt -y
 sudo apt install nginx -y
 ```
-  - Creo la carpeta para depositar los certificados
+  - Creamos la carpeta para depositar los certificados
 
 ``` ssh
 sudo mkdir -p /var/www/letsencrypt
@@ -217,7 +217,7 @@ sudo certbot --server https://acme-v02.api.letsencrypt.org/directory -d *.equipo
 certonly
 ```
 
-- generamos la carpeta **nginx** donde vamos a depositar la configuracion de la instancia del contenedor y pegamos los certificados
+- Generamos la carpeta **nginx** donde vamos a depositar la configuracion de la instancia del contenedor y pegamos los certificados
 
 ``` ssh
 sudo mkdir nginx
@@ -238,7 +238,7 @@ sudo nginx -t
 sudo service reload
 ```
 
-- Creamos el archivo sudo nano [**options-ssl-nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/Nginx/ssl/options-ssl-nginx.conf) y lo copiamos dentro de la carpeta del proyecto
+- Creamos el archivo sudo nano [**options-ssl-nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/scripts/Nginx/ssl/options-ssl-nginx.conf) y lo copiamos dentro de la carpeta del proyecto
 
 > Si su computador cuenta con el archivo options-ssl-nginx.config omita este paso
 
@@ -253,20 +253,20 @@ cd nginx/ssl
 sudo openssl dhparam -out ssl-dhparams.pem 512
 ```
 
-- Creamos el archivo [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/Nginx/docker-compose.yml) con al configuracion del docker en la raiz del proyecto
+- Creamos el archivo [**docker-compose.yml**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/scripts/Nginx/docker-compose.yml) con al configuracion del docker en la raiz del proyecto
 
 ``` ssh
 cd nginx
 sudo nano docker-compose.yml
 ```
 
-- Cambiamos la configuracion del [**nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/Nginx/nginx.conf) del proyecto
+- Cambiamos la configuracion del [**nginx.conf**](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/scripts/Nginx/nginx.conf) del proyecto
 
 ``` ssh
 sudo nano nginx.conf
 ```
 
--desplegamos el docker compose
+- Desplegamos el docker compose
 
 ``` ssh
 docker-compose up --build -d
@@ -278,19 +278,21 @@ El desarrollo esta generado en python con una arquitectura Cliente/Servidor, en 
 
 ### opcional - detalles de la organización del código por carpetas o descripción de algún archivo. (ESTRUCTURA DE DIRECTORIOS Y ARCHIVOS IMPORTANTE DEL PROYECTO, comando 'tree' de linux)
 
+
 - 📁./
 -  |
-  - ├─📁maria db
-    - ├───| docker-compose.yaml
-  - ├─📁Moodle
-    - ├───| docker-compose.yaml
-  - ├─📁Nginx
-    - ├───📁 ssl
-      - ├───| options-ssl-nginx.conf
-      - ├───| ssl-dhparams.pem
-    - ├───| docker-compose.yml
-    - ├───| nginx.config
-
+  - ├─📁scripts
+    - ├─📁maria db
+      - ├───| docker-compose.yaml
+    - ├─📁Moodle
+      - ├───| docker-compose.yaml
+    - ├─📁Nginx
+      - ├───📁 ssl
+        - ├───| options-ssl-nginx.conf
+        - ├───| ssl-dhparams.pem
+      - ├───| docker-compose.yml
+      - ├───| nginx.config
+  - ├───|Readme.MD
 
 ## 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
@@ -309,6 +311,13 @@ El desarrollo esta generado en python con una arquitectura Cliente/Servidor, en 
   - openssl 
 
 ## IP o nombres de dominio en nube o en la máquina servidor.
+
+## Despliegue AWS
+
+![Despliegue desde aws sin certificado de seguridad](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/examples/Imagen1.png)
+
+![Despliegue desde aws con certificado de seguridad](https://github.com/lmarinv2/topicos-telematica/blob/master/Avance_P_2/aws/examples/Imagen2.png)
+
 
 
 #### versión README.md -> 1.0 (2022-noviembre)
