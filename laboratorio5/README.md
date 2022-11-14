@@ -99,3 +99,35 @@ Imagen: [15](evidencias/15.png) - [16](evidencias/16.png)
 Por ultimo si accedemos de nuevo a EMR via ssh y listamos los archivos veremos la nueva carpeta que creamos via HUE
 
 Imagen: [17](evidencias/17.png)
+
+# Ejercicios básicos de MapReduce con MRJOB en python
+
+Para este punto vamos a usar la carpeta Datasets, y los codigos de python.
+Al ejecutar cada uno obtenemos lo siguiente 
+
+p1_1.py El salario promedio por Sector Económico (SE)
+
+p1_2.py El salario promedio por Empleado
+
+p1_3.py Número de SE por Empleado que ha tenido a lo largo de la estadística
+
+p2_1.py Por acción, dia-menor-valor, día-mayor-valor
+
+p2_2.py Listado de acciones que siempre han subido o se mantienen estables.
+
+p2_3.py  DIA NEGRO: Saque el día en el que la mayor cantidad de acciones tienen el menor valor de acción (DESPLOME), suponga una inflación independiente del tiempo.
+
+p3_1.py Número de películas vista por un usuario, valor promedio de calificación
+
+p3_2.py Día en que más películas se han visto
+
+p3_3.py Día en que menos películas se han visto
+
+p3_4.py Número de usuarios que ven una misma película y el rating promedio
+
+p3_5.py Día en que peor evaluación en promedio han dado los usuarios
+
+p3_6.py Día en que mejor evaluación han dado los usuarios
+
+p3_7.py La mejor y peor película evaluada por genero
+
