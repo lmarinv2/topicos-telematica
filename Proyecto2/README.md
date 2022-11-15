@@ -10,9 +10,9 @@ Despliegue de MOODLE escalable, utilizando los recursos de AWS, para la base de 
 #
 # 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
+Amazon EC2 Auto Scaling es un servicio completamente administrado diseñado para lanzar o terminar instancias de Amazon EC2 automáticamente con el objetivo de garantizar el número correcto de instancias de Amazon EC2 disponibles para administrar la carga de su aplicación. Amazon EC2 Auto Scaling ayuda a conservar el nivel de disponibilidad de las aplicaciones mediante la administración de flotas de instancias EC2, lo que detecta y reemplaza instancias defectuosas, y mediante el escalado de la capacidad de Amazon EC2 automáticamente en función de las condiciones definidas. Puede usar Amazon EC2 Auto Scaling para incrementar automáticamente la cantidad de instancias EC2 de Amazon durante los picos de demanda, a fin de mantener el nivel de rendimiento y reducir la capacidad durante los periodos de menor demanda para minimizar los costos.
 
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
-
 
 # EFS 
 
@@ -258,20 +258,14 @@ Click en “next”
 
 [lb-16](evidencias/lb-16.png)
     
-## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
+# otra información que considere relevante para esta actividad.
 
-## como se lanza el servidor.
-
-## una mini guia de como un usuario utilizaría el software o la aplicación
-
-## opcionalmente - si quiere mostrar resultados o pantallazos 
-
-# 5. otra información que considere relevante para esta actividad.
+![image](https://user-images.githubusercontent.com/53051440/201806693-6ec80572-d425-4066-9cdb-b169df2abf8f.png)
 
 # referencias:
-<debemos siempre reconocer los créditos de partes del código que reutilizaremos, así como referencias a youtube, o referencias bibliográficas utilizadas para desarrollar el proyecto o la actividad>
-## sitio1-url 
-## sitio2-url
-## url de donde tomo info para desarrollar este proyecto
+### https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.Connect.html
+### https://aws.amazon.com/es/blogs/aws-spanish/despliegue-de-moodle-en-alta-disponibilidad-en-aws/
+### https://docs.aws.amazon.com/efs/latest/ug/creating-using.html
+
 
 #### versión README.md -> 1.0 (2022-agosto)
