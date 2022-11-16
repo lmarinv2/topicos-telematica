@@ -262,6 +262,9 @@ Click en “next”
 
 ![image](https://user-images.githubusercontent.com/53051440/202277909-ade4312e-38a7-4f77-8e80-aff220262697.png)
 
+![image](https://user-images.githubusercontent.com/53051440/202279042-6bf30ca9-d8e5-4985-a273-eddacc58a13f.png)
+
+
 
 # referencias:
 ### https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.Connect.html
