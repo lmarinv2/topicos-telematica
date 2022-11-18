@@ -99,7 +99,11 @@ Adicionalmente creamos la carpeta donde ira el docker de moodle y editamos los c
       moodledata_data:
         driver: local
 
-
+Una vez creado este archivo ejecutamos el contenedor
+    
+    docker-compose up 
+    
+y probamos con la ip que moodle este funcionando correctamente
 
 # AUTOSCALING
 
