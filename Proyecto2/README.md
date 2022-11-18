@@ -261,6 +261,11 @@ Target Value: 60.
 Click en “next”
 
 [lb-16](evidencias/lb-16.png)
+
+## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
+
+Direccion del balanceador de cargas : http://elb-mywebapp-1012325215.us-east-1.elb.amazonaws.com/
+Direccion en la que esta desplegada: https://lauramarin.ml/
     
 # otra información que considere relevante para esta actividad.
 
