@@ -126,7 +126,10 @@ Abrimos el notebook y ejecutamos los siguientes comandos o copiamos el archivo [
 
 ![image](https://user-images.githubusercontent.com/53051440/202916059-36dba016-755c-4758-a336-a5c193fc8a38.png)
 
-image.png
+![image](https://user-images.githubusercontent.com/53051440/202916866-e9772433-ba45-40be-8466-fce7bc18eaf1.png)
+
+![image](https://user-images.githubusercontent.com/53051440/202916868-67081fc8-d230-4937-838a-2d57f9d74288.png)
+
 
 
 
